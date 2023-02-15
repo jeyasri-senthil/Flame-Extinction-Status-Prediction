@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 
 # Loading the trained model
-loaded_model = pickle.load(open('C:/Users/jeyasri/Downloads/Acoustic Fire Extinguisher/fireextinction_trained.sav','rb'))
+loaded_model = pickle.load(open("C:\Users\jeyasri\Downloads\Acoustic Fire Extinguisher\fireextinction_trained.sav",'rb'))
 
 def flamestatus_prediction(input_data):
     
